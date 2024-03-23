@@ -130,7 +130,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
         println("msg - $msg")
 
-        val reqType = UsbConstants.USB_TYPE_CLASS shr 0x01
+        val reqType = UsbConstants.USB_TYPE_CLASS or 0x01
 
         val Req = UsbRequest();
         Req.initialize(connection.value!!, epIN.value!!)
