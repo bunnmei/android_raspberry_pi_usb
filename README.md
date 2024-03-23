@@ -1,3 +1,6 @@
+# 動きません！！！！！
+
+
 # raspberry pi pico to Android Sample
 raspberry pi pico にはpico-examples > hello_world > usb > hello_usb.c のシリアルデータを受信するAndroidコード。
 
